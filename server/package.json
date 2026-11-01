@@ -1,0 +1,17 @@
+{
+  "name": "h2h-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch --env-file=.env src/index.js",
+    "start": "node --env-file=.env src/index.js",
+    "load-teams": "node --env-file=.env src/scripts/loadTeams.js"
+  },
+  "dependencies": {
+    "axios": "^1.21.0",
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "mongoose": "^9.11.4"
+  }
+}
